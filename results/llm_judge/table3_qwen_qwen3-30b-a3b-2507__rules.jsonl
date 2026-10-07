@@ -1,0 +1,7 @@
+{"key": "b63dca54fd29f316", "i": 0, "raw": "{\"verdict\": \"faithful\", \"confidence\": 100}", "verdict": "faithful", "confidence": 1.0}
+{"key": "5b1d675089ef9dac", "i": 1, "raw": "{\"verdict\": \"faithful\", \"confidence\": 100}", "verdict": "faithful", "confidence": 1.0}
+{"key": "a81ca946163b7c3c", "i": 2, "raw": "{\"verdict\": \"faithful\", \"confidence\": 95}", "verdict": "faithful", "confidence": 0.95}
+{"key": "82553c77fee70520", "i": 3, "raw": "{\"verdict\": \"faithful\", \"confidence\": 95}", "verdict": "faithful", "confidence": 0.95}
+{"key": "e8d64269eb8dd128", "i": 4, "raw": "{\"verdict\": \"faithful\", \"confidence\": 100}", "verdict": "faithful", "confidence": 1.0}
+{"key": "e8ff1ca2971e3f45", "i": 5, "raw": "{\"verdict\": \"faithful\", \"confidence\": 100}", "verdict": "faithful", "confidence": 1.0}
+{"key": "9b122aec3072cf96", "i": 6, "raw": "{\"verdict\": \"unfaithful\", \"confidence\": 100}", "verdict": "unfaithful", "confidence": 1.0}

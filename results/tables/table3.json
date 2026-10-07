@@ -1,0 +1,65 @@
+[
+ {
+  "rewrite": "the 1290s",
+  "type": "generalization",
+  "granularity": "decade",
+  "criterion": "valid",
+  "mdeberta": 0.9813311696052551,
+  "minicheck": 0.8988084197044373,
+  "qwen": "faithful"
+ },
+ {
+  "rewrite": "the 13th century",
+  "type": "generalization",
+  "granularity": "century",
+  "criterion": "valid",
+  "mdeberta": 0.9936562180519104,
+  "minicheck": 0.9098869562149048,
+  "qwen": "faithful"
+ },
+ {
+  "rewrite": "the High Middle Ages",
+  "type": "wrong_date",
+  "granularity": "period",
+  "criterion": "invalid",
+  "mdeberta": 0.864259660243988,
+  "minicheck": 0.7900734543800354,
+  "qwen": "faithful"
+ },
+ {
+  "rewrite": "the Middle Ages",
+  "type": "generalization",
+  "granularity": "period",
+  "criterion": "invalid",
+  "mdeberta": 0.8951008915901184,
+  "minicheck": 0.9626878499984741,
+  "qwen": "faithful"
+ },
+ {
+  "rewrite": "the summer of 1294",
+  "type": "precision",
+  "granularity": "month",
+  "criterion": "invalid",
+  "mdeberta": 0.0015501901507377625,
+  "minicheck": 0.015276923775672913,
+  "qwen": "faithful"
+ },
+ {
+  "rewrite": "anno Domini 1294",
+  "type": "reformulation",
+  "granularity": "year",
+  "criterion": "valid",
+  "mdeberta": 0.7650263905525208,
+  "minicheck": 0.09972760826349258,
+  "qwen": "faithful"
+ },
+ {
+  "rewrite": "1295",
+  "type": "wrong_date",
+  "granularity": "year",
+  "criterion": "invalid",
+  "mdeberta": 0.028240233659744263,
+  "minicheck": 0.111425019800663,
+  "qwen": "unfaithful"
+ }
+]

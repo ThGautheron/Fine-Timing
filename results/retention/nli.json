@@ -1,0 +1,68 @@
+{
+ "threshold": 0.5,
+ "models": {
+  "mdeb_zs": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "mdeb_ft": "mdeberta_main",
+  "mdeb_ft_mnli": "mdeberta_mnli"
+ },
+ "metrics": {
+  "MNLI-m": {
+   "mdeb_zs": {
+    "n": 9815,
+    "bacc": 0.9153604890526419,
+    "accept_rate": {
+     "entail": 0.8787007760850819,
+     "neutral": 0.069164265129683,
+     "contra": 0.02738873327108621
+    }
+   },
+   "mdeb_ft": {
+    "n": 9815,
+    "bacc": 0.7907696676088276,
+    "accept_rate": {
+     "entail": 0.9652198907732107,
+     "neutral": 0.6570605187319885,
+     "contra": 0.11795829442888267
+    }
+   },
+   "mdeb_ft_mnli": {
+    "n": 9815,
+    "bacc": 0.9048948044326566,
+    "accept_rate": {
+     "entail": 0.89738430583501,
+     "neutral": 0.12199807877041306,
+     "contra": 0.05415499533146592
+    }
+   }
+  },
+  "SNLI": {
+   "mdeb_zs": {
+    "n": 9824,
+    "bacc": 0.9030293129887829,
+    "accept_rate": {
+     "entail": 0.8717339667458432,
+     "neutral": 0.10748679714196956,
+     "contra": 0.024096385542168676
+    }
+   },
+   "mdeb_ft": {
+    "n": 9824,
+    "bacc": 0.8077729531092255,
+    "accept_rate": {
+     "entail": 0.9465558194774347,
+     "neutral": 0.5740913327120224,
+     "contra": 0.08928019771393265
+    }
+   },
+   "mdeb_ft_mnli": {
+    "n": 9824,
+    "bacc": 0.8937875095291496,
+    "accept_rate": {
+     "entail": 0.8764845605700713,
+     "neutral": 0.13513513513513514,
+     "contra": 0.04294099474822367
+    }
+   }
+  }
+ }
+}

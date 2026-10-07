@@ -1,0 +1,521 @@
+{
+ "checkers": [
+  "mdeb_zs",
+  "rob_zs",
+  "mdeb_ft",
+  "rob_ft"
+ ],
+ "n_pairs": 352,
+ "misclassified": 39,
+ "valid_rejected": 32,
+ "invalid_accepted": 7,
+ "rewrites": [
+  {
+   "id": "ex1_1294",
+   "type": "wrong_date",
+   "label": 0,
+   "document": "The event took place in 1294.",
+   "claim": "The event took place in the 14th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.984,
+    "rob_zs": 0.957,
+    "mdeb_ft": 0.992,
+    "rob_ft": 1.0
+   }
+  },
+  {
+   "id": "ex2_1984",
+   "type": "generalization",
+   "label": 0,
+   "document": "The conference took place on 8 June 1984.",
+   "claim": "The conference took place in the second half of the 20th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.916,
+    "rob_zs": 0.785,
+    "mdeb_ft": 0.993,
+    "rob_ft": 1.0
+   }
+  },
+  {
+   "id": "ex3_antiquity",
+   "type": "precision",
+   "label": 1,
+   "document": "The turning point takes place at the end of Antiquity.",
+   "claim": "The turning point takes place in the 4th and 5th centuries.",
+   "p_faithful": {
+    "mdeb_zs": 0.01,
+    "rob_zs": 0.031,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.37
+   }
+  },
+  {
+   "id": "ex3_antiquity",
+   "type": "precision",
+   "label": 1,
+   "document": "The turning point takes place at the end of Antiquity.",
+   "claim": "The turning point takes place in the 5th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.005,
+    "rob_zs": 0.036,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "ex3_antiquity",
+   "type": "precision",
+   "label": 1,
+   "document": "The turning point takes place at the end of Antiquity.",
+   "claim": "The turning point takes place around the end of the 5th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.026,
+    "rob_zs": 0.035,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.005
+   }
+  },
+  {
+   "id": "ex4_early_middle_ages",
+   "type": "generalization",
+   "label": 0,
+   "document": "Thus, the peasantry in the Early Middle Ages",
+   "claim": "Thus, the peasantry in the Middle Ages",
+   "p_faithful": {
+    "mdeb_zs": 0.975,
+    "rob_zs": 0.606,
+    "mdeb_ft": 0.999,
+    "rob_ft": 0.999
+   }
+  },
+  {
+   "id": "harbour-fire-80",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler reports that the fire ravaged the harbour district in the year 80 CE and that the public granaries were destroyed.",
+   "claim": "The chronicler reports that the fire ravaged the harbour district in the early Roman Empire period and that the public granaries were destroyed.",
+   "p_faithful": {
+    "mdeb_zs": 0.265,
+    "rob_zs": 0.14,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "harbour-fire-80",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler reports that the fire ravaged the harbour district in the year 80 CE and that the public granaries were destroyed.",
+   "claim": "The chronicler reports that the fire ravaged the harbour district under the Flavian dynasty and that the public granaries were destroyed.",
+   "p_faithful": {
+    "mdeb_zs": 0.003,
+    "rob_zs": 0.013,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "harbour-fire-80",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler reports that the fire ravaged the harbour district in the year 80 CE and that the public granaries were destroyed.",
+   "claim": "The chronicler reports that the fire ravaged the harbour district under the reign of Emperor Titus and that the public granaries were destroyed.",
+   "p_faithful": {
+    "mdeb_zs": 0.001,
+    "rob_zs": 0.013,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.001
+   }
+  },
+  {
+   "id": "harbour-fire-80",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler reports that the fire ravaged the harbour district in the year 80 CE and that the public granaries were destroyed.",
+   "claim": "The chronicler reports that the fire ravaged the harbour district around the time of the inauguration of the Colosseum and that the public granaries were destroyed.",
+   "p_faithful": {
+    "mdeb_zs": 0.001,
+    "rob_zs": 0.007,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "harbour-fire-80",
+   "type": "reformulation",
+   "label": 1,
+   "document": "The chronicler reports that the fire ravaged the harbour district in the year 80 CE and that the public granaries were destroyed.",
+   "claim": "The chronicler reports that the fire ravaged the harbour district in 80 AD and that the public granaries were destroyed.",
+   "p_faithful": {
+    "mdeb_zs": 0.001,
+    "rob_zs": 0.298,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "hospital-chronicle-1150",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler places the founding of the hospital in the 1150s, at a time when the town was experiencing a constant influx of pilgrims.",
+   "claim": "The chronicler places the founding of the hospital during the Great Southern War, at a time when the town was experiencing a constant influx of pilgrims.",
+   "p_faithful": {
+    "mdeb_zs": 0.01,
+    "rob_zs": 0.04,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "hospital-chronicle-1150",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler places the founding of the hospital in the 1150s, at a time when the town was experiencing a constant influx of pilgrims.",
+   "claim": "at the time of the founding of the bastides / the sauvetés",
+   "p_faithful": {
+    "mdeb_zs": 0.0,
+    "rob_zs": 0.037,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.001
+   }
+  },
+  {
+   "id": "hospital-chronicle-1150",
+   "type": "generalization",
+   "label": 1,
+   "document": "The chronicler places the founding of the hospital in the 1150s, at a time when the town was experiencing a constant influx of pilgrims.",
+   "claim": "expression according to the Julian calendar",
+   "p_faithful": {
+    "mdeb_zs": 0.005,
+    "rob_zs": 0.005,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.003
+   }
+  },
+  {
+   "id": "college-foundation-1492",
+   "type": "generalization",
+   "label": 1,
+   "document": "The founding charter of the college is dated to 1492, the same year the town also obtained confirmation of its privileges.",
+   "claim": "The founding charter of the college is dated to the year of the discovery of America, the same year the town also obtained confirmation of its privileges.",
+   "p_faithful": {
+    "mdeb_zs": 0.014,
+    "rob_zs": 0.013,
+    "mdeb_ft": 0.001,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "chronicler-religious-wars-1572",
+   "type": "generalization",
+   "label": 1,
+   "document": "The memoirist reports that the town closed its gates to the royal troops in the autumn of 1572, in the weeks following the disturbances in Paris.",
+   "claim": "The memoirist reports that the town closed its gates to the royal troops after St Bartholomew's Day, in the weeks following the disturbances in Paris.",
+   "p_faithful": {
+    "mdeb_zs": 0.011,
+    "rob_zs": 0.006,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "chronicler-religious-wars-1572",
+   "type": "generalization",
+   "label": 1,
+   "document": "The memoirist reports that the town closed its gates to the royal troops in the autumn of 1572, in the weeks following the disturbances in Paris.",
+   "claim": "The memoirist reports that the town closed its gates to the royal troops after the Peace of Saint-Germain-en-Laye, in the weeks following the disturbances in Paris.",
+   "p_faithful": {
+    "mdeb_zs": 0.01,
+    "rob_zs": 0.01,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "officer-memoirs-1640",
+   "type": "generalization",
+   "label": 1,
+   "document": "In his memoirs, the officer places his stay in Catalonia in the 1640s, at the height of the conflict with Spain.",
+   "claim": "In his memoirs, the officer places his stay in Catalonia at the height of the Iron Century, at the height of the conflict with Spain.",
+   "p_faithful": {
+    "mdeb_zs": 0.364,
+    "rob_zs": 0.021,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "prefectoral-circular-1852",
+   "type": "generalization",
+   "label": 0,
+   "document": "A prefectoral circular of 9 February 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+   "claim": "A prefectoral circular of the mid-19th century instructs mayors to draw up an inventory of their commune's local roads.",
+   "p_faithful": {
+    "mdeb_zs": 0.992,
+    "rob_zs": 0.908,
+    "mdeb_ft": 0.999,
+    "rob_ft": 1.0
+   }
+  },
+  {
+   "id": "corpus-chapter-cartulary",
+   "type": "generalization",
+   "label": 1,
+   "document": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the 13th century.",
+   "claim": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the High Middle Ages.",
+   "p_faithful": {
+    "mdeb_zs": 0.107,
+    "rob_zs": 0.466,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "corpus-chapter-cartulary",
+   "type": "precision",
+   "label": 1,
+   "document": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the 13th century.",
+   "claim": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the mid-13th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.088,
+    "rob_zs": 0.194,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "corpus-parish-registers",
+   "type": "generalization",
+   "label": 1,
+   "document": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the 17th century.",
+   "claim": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the early modern period.",
+   "p_faithful": {
+    "mdeb_zs": 0.008,
+    "rob_zs": 0.185,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "custom_1",
+   "type": "generalization",
+   "label": 1,
+   "document": "The 17th century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "claim": "The reign of the first three Bourbons is the period of transition between the monarchy grounded in law and the monarchy of paper.",
+   "p_faithful": {
+    "mdeb_zs": 0.001,
+    "rob_zs": 0.018,
+    "mdeb_ft": 0.002,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "custom_1",
+   "type": "reformulation",
+   "label": 1,
+   "document": "The 17th century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "claim": "The Iron Century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "p_faithful": {
+    "mdeb_zs": 0.257,
+    "rob_zs": 0.087,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "custom_1",
+   "type": "reformulation",
+   "label": 1,
+   "document": "The 17th century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "claim": "The century of the Thirty Years' War is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "p_faithful": {
+    "mdeb_zs": 0.002,
+    "rob_zs": 0.045,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "custom_1",
+   "type": "reformulation",
+   "label": 1,
+   "document": "The 17th century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "claim": "The century of Louis XIV is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+   "p_faithful": {
+    "mdeb_zs": 0.01,
+    "rob_zs": 0.024,
+    "mdeb_ft": 0.001,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "custom_3",
+   "type": "generalization",
+   "label": 1,
+   "document": "Between the 17th century and the 19th century, the reception of Louis de Froidour changes considerably",
+   "claim": "Between the early modern period and the Romantic era, the reception of Louis de Froidour changes considerably.",
+   "p_faithful": {
+    "mdeb_zs": 0.498,
+    "rob_zs": 0.069,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "custom_3",
+   "type": "generalization",
+   "label": 1,
+   "document": "Between the 17th century and the 19th century, the reception of Louis de Froidour changes considerably",
+   "claim": "The proclamation of the 1827 ordinance marks the beginning of the change in the reception of Louis de Froidour.",
+   "p_faithful": {
+    "mdeb_zs": 0.001,
+    "rob_zs": 0.006,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "last-quarter-12th",
+   "type": "generalization",
+   "label": 1,
+   "document": "The seigneurial mill was built in the last quarter of the 12th century.",
+   "claim": "The seigneurial mill was built under the reign of Philip Augustus.",
+   "p_faithful": {
+    "mdeb_zs": 0.002,
+    "rob_zs": 0.015,
+    "mdeb_ft": 0.078,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "last-quarter-12th",
+   "type": "reformulation",
+   "label": 1,
+   "document": "The seigneurial mill was built in the last quarter of the 12th century.",
+   "claim": "The seigneurial mill was built between 1175 and 1200.",
+   "p_faithful": {
+    "mdeb_zs": 0.02,
+    "rob_zs": 0.029,
+    "mdeb_ft": 0.001,
+    "rob_ft": 0.047
+   }
+  },
+  {
+   "id": "mid-15th",
+   "type": "generalization",
+   "label": 0,
+   "document": "The drapers' confraternity adopted written statutes in the middle of the 15th century.",
+   "claim": "The drapers' confraternity adopted written statutes in the 15th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.992,
+    "rob_zs": 0.978,
+    "mdeb_ft": 0.998,
+    "rob_ft": 1.0
+   }
+  },
+  {
+   "id": "mid-15th",
+   "type": "generalization",
+   "label": 1,
+   "document": "The drapers' confraternity adopted written statutes in the middle of the 15th century.",
+   "claim": "The drapers' confraternity adopted written statutes around 1450.",
+   "p_faithful": {
+    "mdeb_zs": 0.031,
+    "rob_zs": 0.038,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "mid-15th",
+   "type": "precision",
+   "label": 1,
+   "document": "The drapers' confraternity adopted written statutes in the middle of the 15th century.",
+   "claim": "The drapers' confraternity adopted written statutes in the 1450s.",
+   "p_faithful": {
+    "mdeb_zs": 0.112,
+    "rob_zs": 0.051,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "threshold-14th",
+   "type": "generalization",
+   "label": 1,
+   "document": "The town walls were rebuilt at the dawn of the 14th century.",
+   "claim": "The town walls were rebuilt at the turn of the 13th and 14th centuries.",
+   "p_faithful": {
+    "mdeb_zs": 0.198,
+    "rob_zs": 0.053,
+    "mdeb_ft": 0.001,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "around-year-1000",
+   "type": "precision",
+   "label": 0,
+   "document": "The castrum was built on the rocky spur around the year 1000.",
+   "claim": "The castrum was built on the rocky spur in the year 1000.",
+   "p_faithful": {
+    "mdeb_zs": 0.987,
+    "rob_zs": 0.961,
+    "mdeb_ft": 0.999,
+    "rob_ft": 1.0
+   }
+  },
+  {
+   "id": "first-decades-17th",
+   "type": "reformulation",
+   "label": 0,
+   "document": "The printing workshop reached its largest print runs in the opening decades of the 17th century.",
+   "claim": "The printing workshop reached its largest print runs in the earliest years of the 17th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.996,
+    "rob_zs": 0.978,
+    "mdeb_ft": 0.999,
+    "rob_ft": 1.0
+   }
+  },
+  {
+   "id": "reign-charles-v",
+   "type": "generalization",
+   "label": 1,
+   "document": "The royal library was installed in the Louvre under the reign of Charles V.",
+   "claim": "The royal library was installed in the Louvre in the second half of the 14th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.02,
+    "rob_zs": 0.011,
+    "mdeb_ft": 0.012,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "reign-charles-v",
+   "type": "generalization",
+   "label": 1,
+   "document": "The royal library was installed in the Louvre under the reign of Charles V.",
+   "claim": "The royal library was installed in the Louvre in the 14th century.",
+   "p_faithful": {
+    "mdeb_zs": 0.028,
+    "rob_zs": 0.043,
+    "mdeb_ft": 0.009,
+    "rob_ft": 0.0
+   }
+  },
+  {
+   "id": "second-third-19th",
+   "type": "reformulation",
+   "label": 1,
+   "document": "The towpath was laid out during the second third of the 19th century.",
+   "claim": "The towpath was laid out between 1834 and 1866.",
+   "p_faithful": {
+    "mdeb_zs": 0.025,
+    "rob_zs": 0.021,
+    "mdeb_ft": 0.0,
+    "rob_ft": 0.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,2741 @@
+{
+  "meta": {
+    "name": "expert_set",
+    "description": "Documents and date rewrites written and labelled by a historian. A rewrite is valid when its temporal expression is faithful to the document under the historian's convention, invalid otherwise, and null when the historian left it undecided. Each document and rewrite is given in French and in English."
+  },
+  "items": [
+    {
+      "id": "ex1_1294",
+      "period": "late 13th century (transition to the Late Middle Ages)",
+      "doc_fr": "Le fait s'est déroulé en 1294.",
+      "doc_en": "The event took place in 1294.",
+      "notes": "",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le fait s'est déroulé au XIIIe siècle.",
+            "text_en": "The event took place in the 13th century.",
+            "valid": true,
+            "expression_fr": "XIIIe siècle",
+            "expression_en": "the 13th century"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé au début du Bas Moyen Âge.",
+            "text_en": "The event took place at the start of the Late Middle Ages.",
+            "valid": true,
+            "expression_fr": "début du Bas Moyen Age",
+            "expression_en": "the start of the Late Middle Ages"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé au Moyen Âge.",
+            "text_en": "The event took place in the Middle Ages.",
+            "valid": false,
+            "expression_fr": "Moyen Age",
+            "expression_en": "the Middle Ages"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé au deuxième millénaire après J.-C.",
+            "text_en": "The event took place in the second millennium AD.",
+            "valid": false,
+            "expression_fr": "deuxième millénaire après J.-C.",
+            "expression_en": "the second millennium AD"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé dans la décennie 1290.",
+            "text_en": "The event took place in the 1290s.",
+            "valid": true,
+            "expression_fr": "la décennie 1290",
+            "expression_en": "the 1290s",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le fait s'est déroulé au milieu des années 1290.",
+            "text_en": "The event took place in the mid-1290s.",
+            "valid": true,
+            "expression_fr": "le milieu des années 1290",
+            "expression_en": "the mid-1290s",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le fait s'est déroulé à l'été 1294.",
+            "text_en": "The event took place in the summer of 1294.",
+            "valid": false,
+            "expression_fr": "l'été 1294",
+            "expression_en": "the summer of 1294"
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le fait s'est déroulé dans les dernières années du XIIIe siècle.",
+            "text_en": "The event took place in the last years of the 13th century.",
+            "valid": true,
+            "expression_fr": "les dernières années du XIIIe siècle",
+            "expression_en": "the last years of the 13th century"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé à la fin des années 1200.",
+            "text_en": "The event took place in the closing years of the 1200s.",
+            "valid": true,
+            "expression_fr": "la fin des années 1200",
+            "expression_en": "the closing years of the 1200s"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé dans la dernière décennie du XIIIe siècle.",
+            "text_en": "The event took place in the final decade of the 13th century.",
+            "valid": true,
+            "expression_fr": "la dernière décennie du XIIIe siècle",
+            "expression_en": "the final decade of the 13th century"
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le fait s'est déroulé au XIVe siècle.",
+            "text_en": "The event took place in the 14th century.",
+            "valid": false,
+            "expression_fr": "le fait s'est déroulé au XIVe siècle",
+            "expression_en": "the event took place in the 14th century"
+          },
+          {
+            "text_fr": "Le fait s'est déroulé en 1295.",
+            "text_en": "The event took place in 1295.",
+            "valid": false,
+            "expression_fr": "1295",
+            "expression_en": "1295"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ex2_1984",
+      "period": "20th century, contemporary",
+      "doc_fr": "Le colloque s'est déroulé le 8 juin 1984.",
+      "doc_en": "The conference took place on 8 June 1984.",
+      "notes": "",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le colloque s'est déroulé au début des années 80.",
+            "text_en": "The conference took place in the early 1980s.",
+            "valid": true,
+            "expression_fr": "le début des années 80",
+            "expression_en": "the early 1980s"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé dans les années 80.",
+            "text_en": "The conference took place in the 1980s.",
+            "valid": true,
+            "expression_fr": "les années 80",
+            "expression_en": "the 1980s"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé dans la seconde moitié du XXe siècle.",
+            "text_en": "The conference took place in the second half of the 20th century.",
+            "valid": false,
+            "expression_fr": "la seconde moitié du XXe siècle",
+            "expression_en": "the second half of the 20th century"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé au XXe siècle.",
+            "text_en": "The conference took place in the 20th century.",
+            "valid": false,
+            "expression_fr": "XXe siècle",
+            "expression_en": "the 20th century"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé à l'époque moderne.",
+            "text_en": "The conference took place in the modern era.",
+            "valid": false,
+            "expression_fr": "époque moderne",
+            "expression_en": "the modern era"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le colloque s'est déroulé à l'été 1984.",
+            "text_en": "The conference took place in the summer of 1984.",
+            "valid": true,
+            "expression_fr": "l'été 1984",
+            "expression_en": "the summer of 1984"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé en juin 1984.",
+            "text_en": "The conference took place in June 1984.",
+            "valid": true,
+            "expression_fr": "juin 1984",
+            "expression_en": "June 1984"
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le colloque s'est déroulé le 8 juin de l'année 1984.",
+            "text_en": "The conference took place on 8 June of the year 1984.",
+            "valid": true,
+            "expression_fr": "le 8 juin de l'année 1984",
+            "expression_en": "on 8 June of the year 1984"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé au mois de juin 1984.",
+            "text_en": "The conference took place in the month of June 1984.",
+            "valid": true,
+            "expression_fr": "au mois de juin 1984",
+            "expression_en": "in the month of June 1984",
+            "added_during_session": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le colloque s'est déroulé le 7 juin 1984.",
+            "text_en": "The conference took place on 7 June 1984.",
+            "valid": false,
+            "expression_fr": "le 7 juin 1984",
+            "expression_en": "7 June 1984"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé en août 1984.",
+            "text_en": "The conference took place in August 1984.",
+            "valid": false,
+            "expression_fr": "en août 1984",
+            "expression_en": "August 1984"
+          },
+          {
+            "text_fr": "Le colloque s'est déroulé le 8 juin 1985.",
+            "text_en": "The conference took place on 8 June 1985.",
+            "valid": false,
+            "expression_fr": "le 8 juin 1985",
+            "expression_en": "8 June 1985"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ex3_antiquity",
+      "period": "end of Antiquity / threshold of the Early Middle Ages (4th-5th century)",
+      "doc_fr": "Le tournant a lieu à la fin de l'antiquité.",
+      "doc_en": "The turning point takes place at the end of Antiquity.",
+      "notes": "",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le tournant a lieu dans l'Antiquité.",
+            "text_en": "The turning point takes place in Antiquity.",
+            "valid": false,
+            "expression_fr": "Antiquité",
+            "expression_en": "Antiquity"
+          },
+          {
+            "text_fr": "Le tournant a lieu au milieu du premier millénaire.",
+            "text_en": "The turning point takes place in the middle of the first millennium.",
+            "valid": false,
+            "expression_fr": "milieu du premier millénaire",
+            "expression_en": "the middle of the first millennium"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le tournant a lieu aux IVe et Ve siècles.",
+            "text_en": "The turning point takes place in the 4th and 5th centuries.",
+            "valid": true,
+            "expression_fr": "au IVe et Ve siècle",
+            "expression_en": "the 4th and 5th centuries"
+          },
+          {
+            "text_fr": "Le tournant a lieu au Ve siècle.",
+            "text_en": "The turning point takes place in the 5th century.",
+            "valid": true,
+            "expression_fr": "au Ve siècle",
+            "expression_en": "the 5th century"
+          },
+          {
+            "text_fr": "Le tournant a lieu autour de la fin du Ve siècle.",
+            "text_en": "The turning point takes place around the end of the 5th century.",
+            "valid": true,
+            "expression_fr": "autour de la fin du Ve siècle",
+            "expression_en": "around the end of the 5th century"
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le tournant a lieu dans les dernières années de l'Antiquité.",
+            "text_en": "The turning point takes place in the last years of Antiquity.",
+            "valid": true,
+            "expression_fr": "dans les dernières années de l'antiquité",
+            "expression_en": "in the last years of Antiquity"
+          }
+        ],
+        "wrong_date": []
+      }
+    },
+    {
+      "id": "ex4_early_middle_ages",
+      "period": "Early Middle Ages (5th-10th century)",
+      "doc_fr": "Ainsi, la paysannerie dans le Haut Moyen Age",
+      "doc_en": "Thus, the peasantry in the Early Middle Ages",
+      "notes": "",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Ainsi, la paysannerie au Moyen Âge",
+            "text_en": "Thus, the peasantry in the Middle Ages",
+            "valid": false,
+            "expression_fr": "Moyen Age",
+            "expression_en": "the Middle Ages"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie au deuxième millénaire",
+            "text_en": "Thus, the peasantry in the second millennium",
+            "valid": false,
+            "expression_fr": "deuxième millénaire",
+            "expression_en": "the second millennium"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Ainsi, la paysannerie au VIIe siècle",
+            "text_en": "Thus, the peasantry in the 7th century",
+            "valid": false,
+            "expression_fr": "au VIIe siècle",
+            "expression_en": "the 7th century"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie aux VIIe, VIIIe et IXe siècles",
+            "text_en": "Thus, the peasantry in the 7th, 8th and 9th centuries",
+            "valid": true,
+            "expression_fr": "au VII, VIIIe et IXe siècle",
+            "expression_en": "the 7th, 8th and 9th centuries"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie au septième siècle",
+            "text_en": "Thus, the peasantry in the seventh century",
+            "valid": false,
+            "expression_fr": "au septième siècle",
+            "expression_en": "the seventh century"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie en 888",
+            "text_en": "Thus, the peasantry in 888",
+            "valid": false,
+            "expression_fr": "en 888",
+            "expression_en": "888"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie dans les années 880",
+            "text_en": "Thus, the peasantry in the 880s",
+            "valid": false,
+            "expression_fr": "dans les années 880",
+            "expression_en": "the 880s"
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Ainsi, la paysannerie du Ve au Xe siècle",
+            "text_en": "Thus, the peasantry from the 5th to the 10th century",
+            "valid": true,
+            "expression_fr": "du Ve au Xe siècle",
+            "expression_en": "from the 5th to the 10th century"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie de 400 à 900 ap. J.-C.",
+            "text_en": "Thus, the peasantry from 400 to 900 AD",
+            "valid": true,
+            "expression_fr": "de 400 à 900 ap. J.-C.",
+            "expression_en": "from 400 to 900 AD"
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Ainsi, la paysannerie au Bas Moyen Âge",
+            "text_en": "Thus, the peasantry in the Late Middle Ages",
+            "valid": false,
+            "expression_fr": "Bas Moyen Age",
+            "expression_en": "the Late Middle Ages"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie à la Renaissance",
+            "text_en": "Thus, the peasantry in the Renaissance",
+            "valid": false,
+            "expression_fr": "Renaissance",
+            "expression_en": "the Renaissance"
+          },
+          {
+            "text_fr": "Ainsi, la paysannerie à l'époque moderne",
+            "text_en": "Thus, the peasantry in the early modern period",
+            "valid": false,
+            "expression_fr": "époque moderne",
+            "expression_en": "the early modern period"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harbour-fire-80",
+      "period": "Roman Antiquity, Early Empire (1st century AD)",
+      "doc_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire en l'an 80 de notre ère et que les greniers publics furent détruits.",
+      "doc_en": "The chronicler reports that the fire ravaged the harbour district in the year 80 CE and that the public granaries were destroyed.",
+      "notes": "Year-level anchor: widening stays valid up to the century, but long-period labels (Roman Empire, Antiquity) exceed the tolerance. No valid precision, since the document gives neither month nor day.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire dans les années 80 de notre ère et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in the 80s CE and that the public granaries were destroyed.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire au Ier siècle de notre ère et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in the 1st century CE and that the public granaries were destroyed.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire sous l'Empire romain et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district under the Roman Empire and that the public granaries were destroyed.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire dans l'Antiquité et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in Antiquity and that the public granaries were destroyed.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire au début du Haut-Empire romain et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in the early Roman Empire period and that the public granaries were destroyed.",
+            "valid": true,
+            "expression_fr": "la periode du debut du haut empire romain",
+            "expression_en": "the early Roman Empire period",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire près de l'an 80 et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district around the year 80 and that the public granaries were destroyed.",
+            "valid": true,
+            "expression_fr": "près de l'an 80",
+            "expression_en": "around the year 80",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "au moment d'un evenement",
+            "text_en": "at the time of an event",
+            "valid": true,
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire sous la dynastie des Flaviens et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district under the Flavian dynasty and that the public granaries were destroyed.",
+            "valid": true,
+            "expression_fr": "sous la dynastie des Flaviens",
+            "expression_en": "under the Flavian dynasty",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire sous le règne de l'empereur Titus et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district under the reign of Emperor Titus and that the public granaries were destroyed.",
+            "valid": true,
+            "expression_fr": "sous le règne de l'empereur Titus",
+            "expression_en": "under the reign of Emperor Titus",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire près de l'inauguration du Colisée et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district around the time of the inauguration of the Colosseum and that the public granaries were destroyed.",
+            "valid": true,
+            "expression_fr": "près de l'inauguration du colisée",
+            "expression_en": "around the time of the inauguration of the Colosseum",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire au mois d'août de l'an 80 et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in August of the year 80 and that the public granaries were destroyed.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire en l'an 80 après Jésus-Christ et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in the year 80 after Christ and that the public granaries were destroyed.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire en 80 ap. J.-C. et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in 80 AD and that the public granaries were destroyed.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire en l'an 81 de notre ère et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in the year 81 CE and that the public granaries were destroyed.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur rapporte que l'incendie ravagea le quartier portuaire à l'époque républicaine et que les greniers publics furent détruits.",
+            "text_en": "The chronicler reports that the fire ravaged the harbour district in the Republican era and that the public granaries were destroyed.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "seleucid-treaty-188bc",
+      "period": "Hellenistic Antiquity (2nd century BC)",
+      "doc_fr": "Le traité entre la cité et le royaume séleucide fut conclu en 188 avant notre ère, peu après la défaite d'Antiochos III.",
+      "doc_en": "The treaty between the city and the Seleucid kingdom was concluded in 188 BCE, shortly after the defeat of Antiochus III.",
+      "notes": "The label \"Hellenistic period\" spans nearly three centuries: it is an abusive widening from a single year, like \"Antiquity\".",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu dans les années 180 avant notre ère, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in the 180s BCE, shortly after the defeat of Antiochus III.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu au IIe siècle avant notre ère, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in the 2nd century BCE, shortly after the defeat of Antiochus III.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu à l'époque hellénistique, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in the Hellenistic period, shortly after the defeat of Antiochus III.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu dans l'Antiquité, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in Antiquity, shortly after the defeat of Antiochus III.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu au printemps 188 avant notre ère, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in the spring of 188 BCE, shortly after the defeat of Antiochus III.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu en 188 av. J.-C., peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in 188 BC, shortly after the defeat of Antiochus III.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu l'année 188 avant Jésus-Christ, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded the year 188 before Christ, shortly after the defeat of Antiochus III.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu l'année cent-quatre-vingt huit avant Jésus-Christ, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded the year one hundred and eighty-eight before Christ, shortly after the defeat of Antiochus III.",
+            "valid": true,
+            "added_during_session": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu en 187 avant notre ère, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in 187 BCE, shortly after the defeat of Antiochus III.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le traité entre la cité et le royaume séleucide fut conclu au IIe siècle de notre ère, peu après la défaite d'Antiochos III.",
+            "text_en": "The treaty between the city and the Seleucid kingdom was concluded in the 2nd century CE, shortly after the defeat of Antiochus III.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "donation-charter-1042",
+      "period": "High Middle Ages (11th century) - deed",
+      "doc_fr": "La donation à l'abbaye fut confirmée par une charte scellée en 1042, en présence de l'évêque et de deux archidiacres.",
+      "doc_en": "The donation to the abbey was confirmed by a charter sealed in 1042, in the presence of the bishop and two archdeacons.",
+      "notes": "Parallel to the \"1294\" example: decade and century pass, \"Middle Ages\" and \"second millennium\" do not. The wrong date by change of era targets the Renaissance rather than a simple year shift.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée dans les années 1040, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in the 1040s, in the presence of the bishop and two archdeacons.",
+            "valid": true
+          },
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée au XIe siècle, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in the 11th century, in the presence of the bishop and two archdeacons.",
+            "valid": true
+          },
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée au Moyen Âge, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in the Middle Ages, in the presence of the bishop and two archdeacons.",
+            "valid": false
+          },
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée au deuxième millénaire, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in the second millennium, in the presence of the bishop and two archdeacons.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée le 3 mai 1042, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed on 3 May 1042, in the presence of the bishop and two archdeacons.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée en l'an 1042, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in the year 1042, in the presence of the bishop and two archdeacons.",
+            "valid": true
+          },
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée l'année 1042, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed the year 1042, in the presence of the bishop and two archdeacons.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée en 1024, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in 1024, in the presence of the bishop and two archdeacons.",
+            "valid": false
+          },
+          {
+            "text_fr": "La donation à l'abbaye fut confirmée par une charte scellée à la Renaissance, en présence de l'évêque et de deux archidiacres.",
+            "text_en": "The donation to the abbey was confirmed by a charter sealed in the Renaissance, in the presence of the bishop and two archdeacons.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "hospital-chronicle-1150",
+      "period": "High Middle Ages (12th century) - chronicle",
+      "doc_fr": "Le chroniqueur situe la fondation de l'hôpital dans les années 1150, alors que la ville connaissait un afflux constant de pèlerins.",
+      "doc_en": "The chronicler places the founding of the hospital in the 1150s, at a time when the town was experiencing a constant influx of pilgrims.",
+      "notes": "Anchor already at decade level: half-century and century remain reasonable widenings, but the period label (\"Middle Ages\") stays abusive even from a decade. Any year-level precision would be invented.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au milieu du XIIe siècle, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the mid-12th century, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au XIIe siècle, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the 12th century, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au Moyen Âge, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the Middle Ages, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au deuxième millénaire, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the second millennium, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au haut Moyen Âge, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the Early Middle Ages, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": true,
+            "expression_fr": "au haut moyen age",
+            "expression_en": "in the Early Middle Ages",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital lors de la grande guerre méridionale, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital during the Great Southern War, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": true,
+            "expression_fr": "lors de la grande guerre meridionale (evenement de 80 ans)",
+            "expression_en": "during the great southern war (an 80-year event)",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "a l'epoque de la fondation des bastides / des sauvetés",
+            "text_en": "at the time of the founding of the bastides / the sauvetés",
+            "valid": true,
+            "added_during_session": true
+          },
+          {
+            "text_fr": "expression selon le calendrier julien",
+            "text_en": "expression according to the Julian calendar",
+            "valid": true,
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital en 1153, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in 1153, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au mois de juin 1157, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the month of June 1157, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital au cours de la décennie 1150, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital during the 1150s, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital entre 1150 et 1159, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital between 1150 and 1159, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital dans les années 1160, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the 1160s, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chroniqueur situe la fondation de l'hôpital à l'époque moderne, alors que la ville connaissait un afflux constant de pèlerins.",
+            "text_en": "The chronicler places the founding of the hospital in the early modern period, at a time when the town was experiencing a constant influx of pilgrims.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "merchant-letter-1348",
+      "period": "Late Middle Ages (14th century) - correspondence",
+      "doc_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques en août 1348.",
+      "doc_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in August 1348.",
+      "notes": "Month-level anchor: year, decade and half-century remain tolerable, but the whole century skips three tiers too many. Interesting graded pair between \"first half of the 14th century\" (valid) and \"14th century\" (invalid).",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques en 1348.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in 1348.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques dans les années 1340.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in the 1340s.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques dans la première moitié du XIVe siècle.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in the first half of the 14th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques au XIVe siècle.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in the 14th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques au Bas Moyen Âge.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in the Late Middle Ages.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit un cas de désertion des marchés et de fermeture des boutiques au Bas Moyen Âge.",
+            "text_en": "In a letter to his associate, the merchant describes an instance of market desertion and shop closures in the Late Middle Ages.",
+            "valid": null,
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit un cas de désertion des marchés et de fermeture des boutiques au XIVe siècle.",
+            "text_en": "In a letter to his associate, the merchant describes an instance of market desertion and shop closures in the 14th century.",
+            "valid": null,
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques le 12 août 1348.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops on 12 August 1348.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques au mois d'août de l'année 1348.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in the month of August of the year 1348.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques durant le mois d'août 1348.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops during the month of August 1348.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques en juillet 1348.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in July 1348.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans une lettre adressée à son associé, le marchand décrit la désertion des marchés et la fermeture des boutiques au XVIe siècle.",
+            "text_en": "In a letter to his associate, the merchant describes the desertion of the markets and the closing of the shops in the 16th century.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "consular-accounts-1420",
+      "period": "Late Middle Ages (15th century) - urban accounts",
+      "doc_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés dans les années 1420 et payés en plusieurs versements.",
+      "doc_en": "The consular accounts attest that repair works on the ramparts were begun in the 1420s and paid in several instalments.",
+      "notes": "Second decade-level anchor. \"The end of the Middle Ages\" covers two centuries: abusive here, whereas \"first third of the 15th century\" and \"15th century\" remain defensible.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés dans le premier tiers du XVe siècle et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun in the first third of the 15th century and paid in several instalments.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés au XVe siècle et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun in the 15th century and paid in several instalments.",
+            "valid": null
+          },
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés à la fin du Moyen Âge et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun at the end of the Middle Ages and paid in several instalments.",
+            "valid": null
+          },
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés au Moyen Âge et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun in the Middle Ages and paid in several instalments.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés en 1423 et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun in 1423 and paid in several instalments.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés le 14 mars 1424 et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun on 14 March 1424 and paid in several instalments.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés au cours de la décennie 1420 et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun during the 1420s and paid in several instalments.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés entre 1420 et 1429 et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun between 1420 and 1429 and paid in several instalments.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés dans les années 1430 et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun in the 1430s and paid in several instalments.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les comptes consulaires attestent que les travaux de réfection du rempart furent engagés au XIXe siècle et payés en plusieurs versements.",
+            "text_en": "The consular accounts attest that repair works on the ramparts were begun in the 19th century and paid in several instalments.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "college-foundation-1492",
+      "period": "Turn of the Middle Ages / early modern period (late 15th century) - deed",
+      "doc_fr": "L'acte de fondation du collège est daté de 1492, année où la ville obtint également la confirmation de ses privilèges.",
+      "doc_en": "The founding charter of the college is dated to 1492, the same year the town also obtained confirmation of its privileges.",
+      "notes": "Deliberate periodization-boundary case: depending on the chosen cut-off (1453, 1492, 1500), 1492 belongs to the end of the Middle Ages or to the beginning of the early modern period. These two variants are left null rather than decided.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "L'acte de fondation du collège est daté des années 1490, décennie où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the 1490s, the decade in which the town also obtained confirmation of its privileges.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté de la fin du XVe siècle, période où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the late 15th century, the period in which the town also obtained confirmation of its privileges.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté de la fin du Moyen Âge, période où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the end of the Middle Ages, the period in which the town also obtained confirmation of its privileges.",
+            "valid": null
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté du début de l'époque moderne, période où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the start of the early modern period, the period in which the town also obtained confirmation of its privileges.",
+            "valid": null
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté du Moyen Âge, période où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the Middle Ages, the period in which the town also obtained confirmation of its privileges.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté du deuxième millénaire, période où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the second millennium, the period in which the town also obtained confirmation of its privileges.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté de l'année de la découverte de l'Amérique, année où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the year of the discovery of America, the same year the town also obtained confirmation of its privileges.",
+            "valid": true,
+            "expression_fr": "evenement (l'annee decouverte amerique)",
+            "expression_en": "the event (the year of the discovery of America)",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "L'acte de fondation du collège est daté du 2 septembre 1492, jour où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to 2 September 1492, the day on which the town also obtained confirmation of its privileges.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "L'acte de fondation du collège est daté de l'an 1492, année où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the year 1492, the year in which the town also obtained confirmation of its privileges.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte de fondation du collège porte la date de 1492, année où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college bears the date 1492, the year in which the town also obtained confirmation of its privileges.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "L'acte de fondation du collège est daté de 1493, année où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to 1493, the year in which the town also obtained confirmation of its privileges.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'acte de fondation du collège est daté du XIIIe siècle, période où la ville obtint également la confirmation de ses privilèges.",
+            "text_en": "The founding charter of the college is dated to the 13th century, the period in which the town also obtained confirmation of its privileges.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "notarial-deed-1512",
+      "period": "Renaissance (early 16th century) - notarial deed",
+      "doc_fr": "L'acte notarié consigne la vente de la métairie le 14 novembre 1512, devant deux témoins et le curé de la paroisse.",
+      "doc_en": "The notarial deed records the sale of the farmstead on 14 November 1512, before two witnesses and the parish priest.",
+      "notes": "The document is already at the finest grain: no valid precision is possible, and any added sub-expression (hour, time of day) would be invented.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie en novembre 1512, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead in November 1512, before two witnesses and the parish priest.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie en 1512, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead in 1512, before two witnesses and the parish priest.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie dans les années 1510, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead in the 1510s, before two witnesses and the parish priest.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie au XVIe siècle, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead in the 16th century, before two witnesses and the parish priest.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie à la Renaissance, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead in the Renaissance, before two witnesses and the parish priest.",
+            "valid": false
+          },
+          {
+            "text_fr": "periode dans d'autres langage (novembre en occitan noveme) et mixé avec un calendrier different",
+            "text_en": "period expressed in another language (November as 'noveme' in Occitan) and mixed with a different calendar",
+            "valid": true,
+            "added_during_session": true
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie le 1er des calendes de novembre, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead on the 1st of the calends of November, before two witnesses and the parish priest.",
+            "valid": true,
+            "expression_fr": "1er des calendes de novembre",
+            "expression_en": "the 1st of the calends of November",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie au matin du 14 novembre 1512, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead on the morning of 14 November 1512, before two witnesses and the parish priest.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie le quatorzième jour de novembre 1512, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead on the fourteenth day of November 1512, before two witnesses and the parish priest.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie le 14 du mois de novembre de l'an 1512, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead on the 14th of the month of November in the year 1512, before two witnesses and the parish priest.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie le 4 novembre 1512, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead on 4 November 1512, before two witnesses and the parish priest.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'acte notarié consigne la vente de la métairie le 14 novembre 1812, devant deux témoins et le curé de la paroisse.",
+            "text_en": "The notarial deed records the sale of the farmstead on 14 November 1812, before two witnesses and the parish priest.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "humanist-correspondence-1530",
+      "period": "Renaissance (16th century) - correspondence",
+      "doc_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse dans les années 1530, avant de gagner Paris.",
+      "doc_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the 1530s, before moving to Paris.",
+      "notes": "Third decade-level anchor. \"The Renaissance\" is chronologically accurate but spans about a century and a half: excessive widening from a decade, like \"early modern period\".",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse dans la première moitié du XVIe siècle, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the first half of the 16th century, before moving to Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse au XVIe siècle, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the 16th century, before moving to Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse à la Renaissance, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the Renaissance, before moving to Paris.",
+            "valid": null
+          },
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse à l'époque moderne, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the early modern period, before moving to Paris.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse en 1534, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in 1534, before moving to Paris.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse au cours de la décennie 1530, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse during the 1530s, before moving to Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse entre 1530 et 1539, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse between 1530 and 1539, before moving to Paris.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse dans les années 1540, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the 1540s, before moving to Paris.",
+            "valid": false
+          },
+          {
+            "text_fr": "La correspondance de l'humaniste montre qu'il enseigna le grec à Toulouse au Moyen Âge central, avant de gagner Paris.",
+            "text_en": "The humanist's correspondence shows that he taught Greek in Toulouse in the High Middle Ages, before moving to Paris.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "chronicler-religious-wars-1572",
+      "period": "Wars of Religion (16th century) - narrative chronicle",
+      "doc_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales à l'automne 1572, dans les semaines qui suivirent les troubles de Paris.",
+      "doc_en": "The memoirist reports that the town closed its gates to the royal troops in the autumn of 1572, in the weeks following the disturbances in Paris.",
+      "notes": "Season-level anchor: year, decade and half-century pass, the whole century does not. The wrong date by change of era moves the episode outside any historical plausibility.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales en 1572, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in 1572, in the weeks following the disturbances in Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales dans les années 1570, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the 1570s, in the weeks following the disturbances in Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales dans la seconde moitié du XVIe siècle, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the second half of the 16th century, in the weeks following the disturbances in Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales au XVIe siècle, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the 16th century, in the weeks following the disturbances in Paris.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales à l'époque moderne, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the early modern period, in the weeks following the disturbances in Paris.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales après la Saint-Barthélemy, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops after St Bartholomew's Day, in the weeks following the disturbances in Paris.",
+            "valid": true,
+            "expression_fr": "apres la st barthélémy",
+            "expression_en": "after St Bartholomew's Day",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales après la paix de Saint-Germain-en-Laye, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops after the Peace of Saint-Germain-en-Laye, in the weeks following the disturbances in Paris.",
+            "valid": true,
+            "expression_fr": "apres la paix de st germain en laye",
+            "expression_en": "after the Peace of Saint-Germain-en-Laye",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales le 3 octobre 1572, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops on 3 October 1572, in the weeks following the disturbances in Paris.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales durant l'automne de l'année 1572, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops during the autumn of the year 1572, in the weeks following the disturbances in Paris.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales à l'arrière-saison de 1572, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the late autumn of 1572, in the weeks following the disturbances in Paris.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales à l'automne 1573, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the autumn of 1573, in the weeks following the disturbances in Paris.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le mémorialiste rapporte que la ville ferma ses portes aux troupes royales au XIIIe siècle, dans les semaines qui suivirent les troubles de Paris.",
+            "text_en": "The memoirist reports that the town closed its gates to the royal troops in the 13th century, in the weeks following the disturbances in Paris.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "officer-memoirs-1640",
+      "period": "Early modern period (17th century) - memoirs",
+      "doc_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne dans les années 1640, au plus fort du conflit avec l'Espagne.",
+      "doc_en": "In his memoirs, the officer places his stay in Catalonia in the 1640s, at the height of the conflict with Spain.",
+      "notes": "Fourth decade-level anchor. \"Under the Ancien Régime\" is an institutional frame of almost three centuries: rejected as a widening, not as a factual error.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne au milieu du XVIIe siècle, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in the mid-17th century, at the height of the conflict with Spain.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne au XVIIe siècle, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in the 17th century, at the height of the conflict with Spain.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne à l'époque moderne, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in the early modern period, at the height of the conflict with Spain.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne sous l'Ancien Régime, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia under the Ancien Régime, at the height of the conflict with Spain.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne au plus fort du siècle de fer, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia at the height of the Iron Century, at the height of the conflict with Spain.",
+            "valid": true,
+            "expression_fr": "au plus fort du siècle de fer",
+            "expression_en": "at the height of the Iron Century",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne en 1642, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in 1642, at the height of the conflict with Spain.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne au printemps 1645, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in the spring of 1645, at the height of the conflict with Spain.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne au cours de la décennie 1640, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia during the 1640s, at the height of the conflict with Spain.",
+            "valid": true
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne entre 1640 et 1649, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia between 1640 and 1649, at the height of the conflict with Spain.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne dans les années 1630, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in the 1630s, at the height of the conflict with Spain.",
+            "valid": false
+          },
+          {
+            "text_fr": "Dans ses mémoires, l'officier place son séjour en Catalogne au XIIe siècle, au plus fort du conflit avec l'Espagne.",
+            "text_en": "In his memoirs, the officer places his stay in Catalonia in the 12th century, at the height of the conflict with Spain.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "royal-edict-1685",
+      "period": "Early modern period (17th century) - royal act",
+      "doc_fr": "L'édit royal, enregistré par le parlement en octobre 1685, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+      "doc_en": "The royal edict, registered by the parlement in October 1685, orders the closure of the province's Protestant temples and the banning of assemblies.",
+      "notes": "Month-level anchor: the second half of the 17th century stays within the tolerance, the whole century exceeds it. No valid precision, since the registration day is not given.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement en 1685, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in 1685, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement dans les années 1680, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in the 1680s, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": null
+          },
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement dans la seconde moitié du XVIIe siècle, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in the second half of the 17th century, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement au XVIIe siècle, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in the 17th century, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement à l'époque moderne, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in the early modern period, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement le 22 octobre 1685, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement on 22 October 1685, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement au mois d'octobre 1685, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in the month of October 1685, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement en octobre de l'année 1685, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in October of the year 1685, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement en novembre 1685, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in November 1685, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'édit royal, enregistré par le parlement au Haut Moyen Âge, ordonne la fermeture des temples de la province et l'interdiction des assemblées.",
+            "text_en": "The royal edict, registered by the parlement in the Early Middle Ages, orders the closure of the province's Protestant temples and the banning of assemblies.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "travel-journal-1745",
+      "period": "Early modern period (18th century) - travel narrative",
+      "doc_fr": "Le voyageur note dans son journal qu'il franchit le col au mois de juin 1745, au milieu d'une caravane de muletiers.",
+      "doc_en": "The traveller notes in his journal that he crossed the pass in the month of June 1745, in the midst of a caravan of muleteers.",
+      "notes": "Personal-journal register, month-level anchor. \"Under the Ancien Régime\" and \"in the 18th century\" are both true but lose three to four tiers at once.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col en 1745, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass in 1745, in the midst of a caravan of muleteers.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col dans les années 1740, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass in the 1740s, in the midst of a caravan of muleteers.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col au XVIIIe siècle, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass in the 18th century, in the midst of a caravan of muleteers.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col sous l'Ancien Régime, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass under the Ancien Régime, in the midst of a caravan of muleteers.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col le 21 juin 1745, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass on 21 June 1745, in the midst of a caravan of muleteers.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col en juin de l'année 1745, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass in June of the year 1745, in the midst of a caravan of muleteers.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col au cours du mois de juin 1745, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass during the month of June 1745, in the midst of a caravan of muleteers.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col au mois de juillet 1745, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass in the month of July 1745, in the midst of a caravan of muleteers.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le voyageur note dans son journal qu'il franchit le col au XVe siècle, au milieu d'une caravane de muletiers.",
+            "text_en": "The traveller notes in his journal that he crossed the pass in the 15th century, in the midst of a caravan of muleteers.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "grievance-register-1789",
+      "period": "Turn of the early modern / contemporary periods (1789) - deed",
+      "doc_fr": "Le cahier de doléances de la paroisse fut rédigé en mars 1789, quelques semaines avant l'ouverture des États généraux.",
+      "doc_en": "The parish's cahier de doléances was drawn up in March 1789, a few weeks before the opening of the Estates-General.",
+      "notes": "Second periodization boundary: 1789 is the conventional limit between the early modern and the contemporary periods, so \"at the end of the early modern period\" and \"at the beginning of the contemporary period\" are left null.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé en 1789, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in 1789, a few weeks before the opening of the Estates-General.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé dans les années 1780, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in the 1780s, a few weeks before the opening of the Estates-General.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé à la fin de l'époque moderne, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up at the end of the early modern period, a few weeks before the opening of the Estates-General.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé au début de l'époque contemporaine, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up at the start of the contemporary period, a few weeks before the opening of the Estates-General.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé au XVIIIe siècle, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in the 18th century, a few weeks before the opening of the Estates-General.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé au deuxième millénaire, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in the second millennium, a few weeks before the opening of the Estates-General.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé le 12 mars 1789, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up on 12 March 1789, a few weeks before the opening of the Estates-General.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé au mois de mars 1789, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in the month of March 1789, a few weeks before the opening of the Estates-General.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé en mars de l'an 1789, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in March of the year 1789, a few weeks before the opening of the Estates-General.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé en mars 1790, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in March 1790, a few weeks before the opening of the Estates-General.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le cahier de doléances de la paroisse fut rédigé au XVIIe siècle, quelques semaines avant l'ouverture des États généraux.",
+            "text_en": "The parish's cahier de doléances was drawn up in the 17th century, a few weeks before the opening of the Estates-General.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "prefectoral-circular-1852",
+      "period": "Contemporary period (19th century) - administrative act",
+      "doc_fr": "Une circulaire préfectorale du 9 février 1852 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+      "doc_en": "A prefectoral circular of 9 February 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+      "notes": "Day-level anchor: the decade remains the upper limit of acceptable widening, in line with the calibration of the 8 June 1984 example. No valid precision is possible beyond the day.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Une circulaire préfectorale de février 1852 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of February 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": true
+          },
+          {
+            "text_fr": "Une circulaire préfectorale de 1852 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": true
+          },
+          {
+            "text_fr": "Une circulaire préfectorale du début des années 1850 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of the early 1850s instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": true
+          },
+          {
+            "text_fr": "Une circulaire préfectorale du milieu du XIXe siècle enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of the mid-19th century instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": false
+          },
+          {
+            "text_fr": "Une circulaire préfectorale du XIXe siècle enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of the 19th century instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Une circulaire préfectorale de l'après-midi du 9 février 1852 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of the afternoon of 9 February 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Une circulaire préfectorale du neuf février 1852 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of the ninth of February 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": true
+          },
+          {
+            "text_fr": "Une circulaire préfectorale du 9 du mois de février 1852 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of the 9th of the month of February 1852 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Une circulaire préfectorale du 9 février 1853 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of 9 February 1853 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": false
+          },
+          {
+            "text_fr": "Une circulaire préfectorale du 9 février 1652 enjoint aux maires de dresser l'état des chemins vicinaux de leur commune.",
+            "text_en": "A prefectoral circular of 9 February 1652 instructs mayors to draw up an inventory of their commune's local roads.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "miners-strike-1906",
+      "period": "Contemporary period (early 20th century) - press chronicle",
+      "doc_fr": "La grève des mineurs éclata au printemps 1906 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+      "doc_en": "The miners' strike broke out in the spring of 1906 and continued for several months, until the intervention of an arbitrator appointed by the government.",
+      "notes": "Season-level anchor. \"The first half of the 20th century\" still passes, \"the 20th century\" skips four tiers. Any day-level date would be invented.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "La grève des mineurs éclata en 1906 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in 1906 and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": true
+          },
+          {
+            "text_fr": "La grève des mineurs éclata dans les années 1900 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in the 1900s and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": true
+          },
+          {
+            "text_fr": "La grève des mineurs éclata dans la première moitié du XXe siècle et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in the first half of the 20th century and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": true
+          },
+          {
+            "text_fr": "La grève des mineurs éclata au XXe siècle et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in the 20th century and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": false
+          },
+          {
+            "text_fr": "La grève des mineurs éclata à l'époque contemporaine et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in the contemporary period and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "La grève des mineurs éclata le 10 mars 1906 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out on 10 March 1906 and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "La grève des mineurs éclata au printemps de l'année 1906 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in the spring of the year 1906 and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": true
+          },
+          {
+            "text_fr": "La grève des mineurs éclata durant les mois de printemps de 1906 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out during the spring months of 1906 and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "La grève des mineurs éclata au printemps 1907 et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out in the spring of 1907 and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": false
+          },
+          {
+            "text_fr": "La grève des mineurs éclata sous l'Ancien Régime et se prolongea plusieurs mois, jusqu'à l'intervention d'un arbitre nommé par le gouvernement.",
+            "text_en": "The miners' strike broke out under the Ancien Régime and continued for several months, until the intervention of an arbitrator appointed by the government.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "oral-survey-1970",
+      "period": "Contemporary period (20th century) - oral survey",
+      "doc_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine dans les années 1970 et sur leurs premières années d'atelier.",
+      "doc_en": "The testimonies collected from the female workers concern their entry into the factory in the 1970s and their first years on the shop floor.",
+      "notes": "Fifth decade-level anchor, in a contemporary context: half-century and century remain acceptable, \"contemporary period\" does not. A precise year would be an invention, since the survey does not give it.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine dans la seconde moitié du XXe siècle et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in the second half of the 20th century and their first years on the shop floor.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine au XXe siècle et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in the 20th century and their first years on the shop floor.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine à l'époque contemporaine et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in the contemporary period and their first years on the shop floor.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine au deuxième millénaire et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in the second millennium and their first years on the shop floor.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine en 1973 et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in 1973 and their first years on the shop floor.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine au cours de la décennie 1970 et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory during the 1970s and their first years on the shop floor.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine entre 1970 et 1979 et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory between 1970 and 1979 and their first years on the shop floor.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine dans les années 1980 et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in the 1980s and their first years on the shop floor.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les témoignages recueillis auprès des ouvrières portent sur leur entrée à l'usine au XIXe siècle et sur leurs premières années d'atelier.",
+            "text_en": "The testimonies collected from the female workers concern their entry into the factory in the 19th century and their first years on the shop floor.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpus-chapter-cartulary",
+      "period": "Corpus coverage - medieval cartulary (13th century)",
+      "doc_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au XIIIe siècle.",
+      "doc_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the 13th century.",
+      "notes": "Typical case of valid precision: the tested expression (\"in the 13th century\") is a rounding of an exact bound given elsewhere in the document, so narrowing to 1240-1280 restores what the text already says. By contrast \"in the 1260s\" is attested nowhere.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre entre le XIIe et le XIVe siècle.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter between the 12th and 14th centuries.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au Moyen Âge central.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the High Middle Ages.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au Moyen Âge.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the Middle Ages.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au deuxième millénaire.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the second millennium.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre entre 1240 et 1280.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter between 1240 and 1280.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au milieu du XIIIe siècle.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the mid-13th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre dans les années 1260.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the 1260s.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre en 1255.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in 1255.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au treizième siècle.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the thirteenth century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre entre 1200 et 1300.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter between 1200 and 1300.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre au XIVe siècle.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the 14th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le corpus rassemble 412 actes échelonnés entre 1240 et 1280. Ces pièces documentent donc la vie du chapitre à l'époque moderne.",
+            "text_en": "The corpus brings together 412 acts spanning 1240 to 1280. These documents therefore record the life of the chapter in the early modern period.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpus-parish-registers",
+      "period": "Corpus coverage - parish registers (17th century)",
+      "doc_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur le XVIIe siècle.",
+      "doc_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the 17th century.",
+      "notes": "Second legitimate valid precision: \"from 1603 to 1692\" is explicitly attested. \"Over the second half of the 17th century\" is, however, an invalid narrowing, since the document designates neither half as its centre of gravity.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur la période allant du XVIe au XVIIIe siècle.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the period from the 16th to the 18th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur l'époque moderne.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the early modern period.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur le deuxième millénaire.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the second millennium.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur les époques moderne et contemporaine.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the early modern and contemporary periods.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur la période de 1603 à 1692.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the period from 1603 to 1692.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur la seconde moitié du XVIIe siècle.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the second half of the 17th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur les années 1650.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the 1650s.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur le dix-septième siècle.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the seventeenth century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur les années 1600.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the 1600s.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur le XVIIIe siècle.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the 18th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les registres paroissiaux exploités dans cette étude commencent en 1603 et s'interrompent en 1692. L'enquête porte donc sur le Moyen Âge.",
+            "text_en": "The parish registers used in this study begin in 1603 and end in 1692. The survey therefore covers the Middle Ages.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpus-local-press-1880-1914",
+      "period": "Corpus coverage - local press (late 19th - early 20th century)",
+      "doc_fr": "Le dépouillement de la presse locale couvre les années 1880 à 1914. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+      "doc_en": "The survey of the local press covers the years 1880 to 1914. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+      "notes": "Third case of valid precision: narrowing to the 1900s decade is explicitly designated by the document as the core of the source survey. Any other decade would be an invention.",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre la période allant de la fin du XIXe siècle au début du XXe siècle. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the period from the late 19th century to the early 20th century. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre la période allant de 1870 à 1920. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the period from 1870 to 1920. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre les XIXe et XXe siècles. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the 19th and 20th centuries. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre l'époque contemporaine. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the contemporary period. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": false
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le dépouillement de la presse locale se concentre sur la décennie 1900. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press focuses on the 1900s decade. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale se concentre sur les années 1890. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press focuses on the 1890s. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale se concentre sur l'année 1912. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press focuses on the year 1912. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre la période 1880-1914. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the period 1880-1914. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre les trois décennies et demie qui séparent 1880 de 1914. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the three and a half decades between 1880 and 1914. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre les années 1880 à 1940. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the years 1880 to 1940. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le dépouillement de la presse locale couvre la Renaissance. Les numéros de la décennie 1900 ont fait l'objet d'un sondage systématique, les autres d'un examen plus rapide.",
+            "text_en": "The survey of the local press covers the Renaissance. Issues from the 1900s decade were subject to systematic sampling, the others to a more cursory examination.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "custom_1",
+      "period": "",
+      "doc_fr": "Le XVIIème siecle est le siecle de basculement entre la monarchie d'essence juridique et la monarchie de papier",
+      "doc_en": "The 17th century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+      "notes": "",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le milieu de l'Ancien Régime est la période de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The middle of the Ancien Régime is the period of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": true,
+            "expression_fr": "milieu de l'ancien régime",
+            "expression_en": "the middle of the Ancien Régime",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le règne des trois premiers Bourbons est la période de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The reign of the first three Bourbons is the period of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": true,
+            "expression_fr": "sous le regne des trois premiers bourbons",
+            "expression_en": "under the reign of the first three Bourbons",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "L'Ancien Régime est la période de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The Ancien Régime is the period of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": false,
+            "expression_fr": "ancien régime",
+            "expression_en": "the Ancien Régime",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "L'époque moderne est la période de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The early modern period is the period of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": false,
+            "expression_fr": "époque moderne",
+            "expression_en": "the early modern period",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "L'époque de la dynastie des Bourbons est la période de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The era of the Bourbon dynasty is the period of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": false,
+            "expression_fr": "dynastie des bourbons",
+            "expression_en": "the Bourbon dynasty",
+            "added_during_session": true
+          }
+        ],
+        "precision": [],
+        "reformulation": [
+          {
+            "text_fr": "Le siècle de fer est le siècle de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The Iron Century is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": true,
+            "expression_fr": "siecle de fer",
+            "expression_en": "the Iron Century",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le siècle de la guerre de Trente Ans est le siècle de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The century of the Thirty Years' War is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": true,
+            "expression_fr": "le siecle de la guerre de trente ans",
+            "expression_en": "the century of the Thirty Years' War",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le siècle de Louis XIV est le siècle de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The century of Louis XIV is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": true,
+            "expression_fr": "le siecle de louis XIV",
+            "expression_en": "the century of Louis XIV",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le Grand Siècle est le siècle de basculement entre la monarchie d'essence juridique et la monarchie de papier.",
+            "text_en": "The Grand Siècle is the century of transition between the monarchy grounded in law and the monarchy of paper.",
+            "valid": true,
+            "expression_fr": "le grand siecle",
+            "expression_en": "the Grand Siècle",
+            "added_during_session": true
+          }
+        ],
+        "wrong_date": []
+      }
+    },
+    {
+      "id": "custom_3",
+      "period": "",
+      "doc_fr": "Entre le XVII eme siecle et le XIXeme siecle, la reception de louis de froidour evolue considerablement",
+      "doc_en": "Between the 17th century and the 19th century, the reception of Louis de Froidour changes considerably",
+      "notes": "",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Entre l'époque moderne et l'époque romantique, la réception de Louis de Froidour évolue considérablement.",
+            "text_en": "Between the early modern period and the Romantic era, the reception of Louis de Froidour changes considerably.",
+            "valid": true,
+            "expression_fr": "entre l'époque moderne et l'epoque romantique",
+            "expression_en": "between the early modern period and the Romantic era",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Entre la naissance de la sylviculture et la guerre contre la Prusse, la réception de Louis de Froidour évolue considérablement.",
+            "text_en": "Between the birth of forestry science and the war against Prussia, the reception of Louis de Froidour changes considerably.",
+            "valid": true,
+            "expression_fr": "la naissance de la sylviculture et la guerre contre la prusse",
+            "expression_en": "the birth of forestry science and the war against Prussia",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "La proclamation de l'ordonnance de 1827 marque le début de l'évolution de la réception de Louis de Froidour.",
+            "text_en": "The proclamation of the 1827 ordinance marks the beginning of the change in the reception of Louis de Froidour.",
+            "valid": true,
+            "expression_fr": "la proclamation de l'ordonnance de 1827 marque le debut de l'evolution de ...",
+            "expression_en": "the proclamation of the 1827 ordinance marks the beginning of the evolution of ...",
+            "added_during_session": true
+          }
+        ],
+        "precision": [],
+        "reformulation": [],
+        "wrong_date": []
+      }
+    },
+    {
+      "id": "last-quarter-12th",
+      "period": "High Middle Ages (12th century)",
+      "doc_fr": "Le moulin seigneurial fut construit dans le dernier quart du XIIe siècle.",
+      "doc_en": "The seigneurial mill was built in the last quarter of the 12th century.",
+      "notes": "Quarter-century anchor. The whole century remains a moderate widening, the named periodization is tolerated, the era container is not.",
+      "anchor_expression_fr": "dans le dernier quart du XIIe siècle",
+      "anchor_tier": "quarter_century",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le moulin seigneurial fut construit dans la seconde moitié du XIIe siècle.",
+            "text_en": "The seigneurial mill was built in the second half of the 12th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit au XIIe siècle.",
+            "text_en": "The seigneurial mill was built in the 12th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit au Moyen Âge central.",
+            "text_en": "The seigneurial mill was built in the High Middle Ages.",
+            "valid": null,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit au Moyen Âge.",
+            "text_en": "The seigneurial mill was built in the Middle Ages.",
+            "valid": false,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit sous le règne de Philippe Auguste.",
+            "text_en": "The seigneurial mill was built under the reign of Philip Augustus.",
+            "valid": true,
+            "expression_fr": "sous le regne de philippe auguste",
+            "expression_en": "under the reign of Philip Augustus",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit lorsque le père de Tancred était seigneur.",
+            "text_en": "The seigneurial mill was built when Tancred's father was lord.",
+            "valid": true,
+            "expression_fr": "lorsque le pere de tancred etait seigneur",
+            "expression_en": "when Tancred's father was lord",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le moulin seigneurial fut construit en 1187.",
+            "text_en": "The seigneurial mill was built in 1187.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit dans les années 1180.",
+            "text_en": "The seigneurial mill was built in the 1180s.",
+            "valid": null
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le moulin seigneurial fut construit entre 1175 et 1200.",
+            "text_en": "The seigneurial mill was built between 1175 and 1200.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit dans les vingt-cinq dernières années du XIIe siècle.",
+            "text_en": "The seigneurial mill was built in the final twenty-five years of the 12th century.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le moulin seigneurial fut construit dans le premier quart du XIIe siècle.",
+            "text_en": "The seigneurial mill was built in the first quarter of the 12th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le moulin seigneurial fut construit dans le dernier quart du XVIIe siècle.",
+            "text_en": "The seigneurial mill was built in the last quarter of the 17th century.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "mid-15th",
+      "period": "Late Middle Ages (15th century)",
+      "doc_fr": "La confrérie des drapiers se dota de statuts écrits au mitan du XVe siècle.",
+      "doc_en": "The drapers' confraternity adopted written statutes in the middle of the 15th century.",
+      "notes": "\"Mitan\" is a rare turn of phrase. The anchor designates the middle of the century, so widening to a specific half would be a shift rather than a generalization: only the whole century widens without betraying it.",
+      "anchor_expression_fr": "au mitan du XVe siècle",
+      "anchor_tier": "half_century",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au XVe siècle.",
+            "text_en": "The drapers' confraternity adopted written statutes in the 15th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits à la fin du Moyen Âge.",
+            "text_en": "The drapers' confraternity adopted written statutes in the late Middle Ages.",
+            "valid": false,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au Moyen Âge.",
+            "text_en": "The drapers' confraternity adopted written statutes in the Middle Ages.",
+            "valid": false,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au deuxième millénaire.",
+            "text_en": "The drapers' confraternity adopted written statutes in the second millennium.",
+            "valid": false,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits vers 1450.",
+            "text_en": "The drapers' confraternity adopted written statutes around 1450.",
+            "valid": true,
+            "expression_fr": "vers 1450",
+            "expression_en": "around 1450",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au tournant du XVe siècle.",
+            "text_en": "The drapers' confraternity adopted written statutes at the turn of the 15th century.",
+            "valid": true,
+            "expression_fr": "au tournant du XVeme siecle",
+            "expression_en": "at the turn of the 15th century",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits en 1452.",
+            "text_en": "The drapers' confraternity adopted written statutes in 1452.",
+            "valid": false
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits dans les années 1450.",
+            "text_en": "The drapers' confraternity adopted written statutes in the 1450s.",
+            "valid": true
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au milieu du XVe siècle.",
+            "text_en": "The drapers' confraternity adopted written statutes in the mid-15th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits vers le milieu du quinzième siècle.",
+            "text_en": "The drapers' confraternity adopted written statutes around the middle of the fifteenth century.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au mitan du XVIe siècle.",
+            "text_en": "The drapers' confraternity adopted written statutes in the middle of the 16th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "La confrérie des drapiers se dota de statuts écrits au mitan du XIXe siècle.",
+            "text_en": "The drapers' confraternity adopted written statutes in the middle of the 19th century.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "threshold-14th",
+      "period": "Turn of the 13th-14th century",
+      "doc_fr": "Les remparts de la ville furent relevés à l'orée du XIVe siècle.",
+      "doc_en": "The town walls were rebuilt at the dawn of the 14th century.",
+      "notes": "Threshold turn of phrase: the anchor straddles the end of the 13th and the beginning of the 14th century. \"In the 14th century\" widens without betraying, but \"in the 13th century\" would exclude half of the anchor and is a wrong date, not a generalization.",
+      "anchor_expression_fr": "à l'orée du XIVe siècle",
+      "anchor_tier": "century_threshold",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Les remparts de la ville furent relevés au tournant des XIIIe et XIVe siècles.",
+            "text_en": "The town walls were rebuilt at the turn of the 13th and 14th centuries.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés aux XIIIe et XIVe siècles.",
+            "text_en": "The town walls were rebuilt in the 13th and 14th centuries.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés au Bas Moyen Âge.",
+            "text_en": "The town walls were rebuilt in the Late Middle Ages.",
+            "valid": null,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés au Moyen Âge.",
+            "text_en": "The town walls were rebuilt in the Middle Ages.",
+            "valid": false,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés entre le XIIIe et le XIVe siècle.",
+            "text_en": "The town walls were rebuilt between the 13th and 14th centuries.",
+            "valid": true,
+            "expression_fr": "entre le XIII et le XIVeme",
+            "expression_en": "between the 13th and 14th centuries",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Les remparts de la ville furent relevés en 1302.",
+            "text_en": "The town walls were rebuilt in 1302.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés dans les années 1300.",
+            "text_en": "The town walls were rebuilt in the 1300s decade.",
+            "valid": true
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Les remparts de la ville furent relevés au tout début du XIVe siècle.",
+            "text_en": "The town walls were rebuilt at the very beginning of the 14th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés à l'aube du quatorzième siècle.",
+            "text_en": "The town walls were rebuilt at the dawn of the fourteenth century.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Les remparts de la ville furent relevés au XIIIe siècle.",
+            "text_en": "The town walls were rebuilt in the 13th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "Les remparts de la ville furent relevés à l'orée du XVIIIe siècle.",
+            "text_en": "The town walls were rebuilt at the dawn of the 18th century.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "around-year-1000",
+      "period": "Turn of the 10th-11th century",
+      "doc_fr": "Le castrum fut édifié sur l'éperon rocheux aux alentours de l'an mil.",
+      "doc_en": "The castrum was built on the rocky spur around the year 1000.",
+      "notes": "\"The year 1000\" (an mil) is a historiographical landmark in itself, distinct from an exact year. The approximation marker forbids narrowing to 1000.",
+      "anchor_expression_fr": "aux alentours de l'an mil",
+      "anchor_tier": "year_1000_landmark",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux à la charnière des Xe et XIe siècles.",
+            "text_en": "The castrum was built on the rocky spur at the junction of the 10th and 11th centuries.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux aux Xe et XIe siècles.",
+            "text_en": "The castrum was built on the rocky spur in the 10th and 11th centuries.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux au Moyen Âge central.",
+            "text_en": "The castrum was built on the rocky spur in the High Middle Ages.",
+            "valid": null,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux au Moyen Âge.",
+            "text_en": "The castrum was built on the rocky spur in the Middle Ages.",
+            "valid": false,
+            "family": "era_container"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux en l'an 1000.",
+            "text_en": "The castrum was built on the rocky spur in the year 1000.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux en 1004.",
+            "text_en": "The castrum was built on the rocky spur in 1004.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux autour de l'an mil.",
+            "text_en": "The castrum was built on the rocky spur about the year 1000.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux aux environs de l'an mille.",
+            "text_en": "The castrum was built on the rocky spur in the vicinity of the year one thousand.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux aux alentours de l'an 1200.",
+            "text_en": "The castrum was built on the rocky spur around the year 1200.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le castrum fut édifié sur l'éperon rocheux aux alentours de l'an 1500.",
+            "text_en": "The castrum was built on the rocky spur around the year 1500.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-decades-17th",
+      "period": "Early modern period (17th century)",
+      "doc_fr": "L'atelier typographique connut son plus fort tirage dans les premières décennies du XVIIe siècle.",
+      "doc_en": "The printing workshop reached its largest print runs in the opening decades of the 17th century.",
+      "notes": "Anchor spanning several decades. Narrowing to a single decade is already an invalid precision, even though that decade is contained in the anchor.",
+      "anchor_expression_fr": "dans les premières décennies du XVIIe siècle",
+      "anchor_tier": "multi_decade",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage dans la première moitié du XVIIe siècle.",
+            "text_en": "The printing workshop reached its largest print runs in the first half of the 17th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage au XVIIe siècle.",
+            "text_en": "The printing workshop reached its largest print runs in the 17th century.",
+            "valid": null
+          },
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage à l'âge classique.",
+            "text_en": "The printing workshop reached its largest print runs in the classical age.",
+            "valid": false,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage à l'époque moderne.",
+            "text_en": "The printing workshop reached its largest print runs in the early modern period.",
+            "valid": false,
+            "family": "era_container"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage dans les années 1610.",
+            "text_en": "The printing workshop reached its largest print runs in the 1610s.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage en 1618.",
+            "text_en": "The printing workshop reached its largest print runs in 1618.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage dans les premières années du XVIIe siècle.",
+            "text_en": "The printing workshop reached its largest print runs in the earliest years of the 17th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage au début du dix-septième siècle.",
+            "text_en": "The printing workshop reached its largest print runs at the start of the seventeenth century.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage dans les dernières décennies du XVIIe siècle.",
+            "text_en": "The printing workshop reached its largest print runs in the closing decades of the 17th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "L'atelier typographique connut son plus fort tirage dans les premières décennies du XXe siècle.",
+            "text_en": "The printing workshop reached its largest print runs in the opening decades of the 20th century.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "short-span-1268-1272",
+      "period": "High Middle Ages (13th century)",
+      "doc_fr": "Le péage sur le pont fut perçu entre 1268 et 1272.",
+      "doc_en": "The bridge toll was levied between 1268 and 1272.",
+      "notes": "Five-year span, narrower than a decade and wider than a year. Inclusion trap: \"in the 1270s\" looks close but leaves 1268 and 1269 out, which makes it a wrong date rather than a generalization.",
+      "anchor_expression_fr": "entre 1268 et 1272",
+      "anchor_tier": "short_span",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le péage sur le pont fut perçu dans le troisième quart du XIIIe siècle.",
+            "text_en": "The bridge toll was levied in the third quarter of the 13th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le péage sur le pont fut perçu dans la seconde moitié du XIIIe siècle.",
+            "text_en": "The bridge toll was levied in the second half of the 13th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le péage sur le pont fut perçu au XIIIe siècle.",
+            "text_en": "The bridge toll was levied in the 13th century.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le péage sur le pont fut perçu au Moyen Âge central.",
+            "text_en": "The bridge toll was levied in the High Middle Ages.",
+            "valid": null,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "Le péage sur le pont fut perçu au Moyen Âge.",
+            "text_en": "The bridge toll was levied in the Middle Ages.",
+            "valid": false,
+            "family": "era_container"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le péage sur le pont fut perçu en 1270.",
+            "text_en": "The bridge toll was levied in 1270.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le péage sur le pont fut perçu durant les cinq années qui séparent 1268 de 1272.",
+            "text_en": "The bridge toll was levied over the five years between 1268 and 1272.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le péage sur le pont fut perçu de 1268 à 1272.",
+            "text_en": "The bridge toll was levied from 1268 to 1272.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le péage sur le pont fut perçu dans les années 1270.",
+            "text_en": "The bridge toll was levied in the 1270s.",
+            "valid": false,
+            "family": "partial_inclusion"
+          },
+          {
+            "text_fr": "Le péage sur le pont fut perçu entre 1468 et 1472.",
+            "text_en": "The bridge toll was levied between 1468 and 1472.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-three-centuries",
+      "period": "Roman Antiquity (1st-3rd century)",
+      "doc_fr": "Le culte fut attesté dans la vallée durant les trois premiers siècles de notre ère.",
+      "doc_en": "The cult is attested in the valley during the first three centuries of our era.",
+      "notes": "Anchor already spanning several centuries: widening to the half-millennium costs only one notch and remains valid, whereas \"Antiquity\" and \"the first millennium\" remain era containers. A single century, even if contained in the anchor, is an invalid precision.",
+      "anchor_expression_fr": "durant les trois premiers siècles de notre ère",
+      "anchor_tier": "multi_century_span",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le culte fut attesté dans la vallée durant la première moitié du premier millénaire.",
+            "text_en": "The cult is attested in the valley during the first half of the first millennium.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le culte fut attesté dans la vallée sous le Haut-Empire romain.",
+            "text_en": "The cult is attested in the valley under the early Roman Empire.",
+            "valid": null,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "Le culte fut attesté dans la vallée au premier millénaire.",
+            "text_en": "The cult is attested in the valley in the first millennium.",
+            "valid": false,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "Le culte fut attesté dans la vallée dans l'Antiquité.",
+            "text_en": "The cult is attested in the valley in Antiquity.",
+            "valid": false,
+            "family": "era_container"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le culte fut attesté dans la vallée au IIe siècle de notre ère.",
+            "text_en": "The cult is attested in the valley in the 2nd century of our era.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le culte fut attesté dans la vallée en 212 de notre ère.",
+            "text_en": "The cult is attested in the valley in 212 of our era.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le culte fut attesté dans la vallée du Ier au IIIe siècle de notre ère.",
+            "text_en": "The cult is attested in the valley from the 1st to the 3rd century of our era.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le culte fut attesté dans la vallée entre l'an 1 et l'an 300 de notre ère.",
+            "text_en": "The cult is attested in the valley between the years 1 and 300 of our era.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le culte fut attesté dans la vallée durant les trois derniers siècles avant notre ère.",
+            "text_en": "The cult is attested in the valley during the last three centuries before our era.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le culte fut attesté dans la vallée durant les trois premiers siècles du deuxième millénaire.",
+            "text_en": "The cult is attested in the valley during the first three centuries of the second millennium.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "reign-charles-v",
+      "period": "Late Middle Ages (14th century)",
+      "doc_fr": "La bibliothèque royale fut installée au Louvre sous le règne de Charles V.",
+      "doc_en": "The royal library was installed in the Louvre under the reign of Charles V.",
+      "notes": "The reign serves here as the anchor, not as a variant. It lasts about sixteen years, i.e. roughly a decade and a half: half-century and century remain valid widenings, and narrowing to a single year is an invention.",
+      "anchor_expression_fr": "sous le règne de Charles V",
+      "anchor_tier": "reign",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre dans la seconde moitié du XIVe siècle.",
+            "text_en": "The royal library was installed in the Louvre in the second half of the 14th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre au XIVe siècle.",
+            "text_en": "The royal library was installed in the Louvre in the 14th century.",
+            "valid": true
+          },
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre au temps de la guerre de Cent Ans.",
+            "text_en": "The royal library was installed in the Louvre at the time of the Hundred Years' War.",
+            "valid": false,
+            "family": "event"
+          },
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre au Moyen Âge.",
+            "text_en": "The royal library was installed in the Louvre in the Middle Ages.",
+            "valid": false,
+            "family": "era_container"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre en 1370.",
+            "text_en": "The royal library was installed in the Louvre in 1370.",
+            "valid": false
+          },
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre dans les années 1370.",
+            "text_en": "The royal library was installed in the Louvre in the 1370s.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre durant le règne de Charles V.",
+            "text_en": "The royal library was installed in the Louvre during the reign of Charles V.",
+            "valid": true
+          },
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre sous le roi Charles V.",
+            "text_en": "The royal library was installed in the Louvre under King Charles V.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre sous le règne de Charles VI.",
+            "text_en": "The royal library was installed in the Louvre under the reign of Charles VI.",
+            "valid": false
+          },
+          {
+            "text_fr": "La bibliothèque royale fut installée au Louvre sous le règne de Louis XIV.",
+            "text_en": "The royal library was installed in the Louvre under the reign of Louis XIV.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "twilight-18th",
+      "period": "Early modern period (late 18th century)",
+      "doc_fr": "La manufacture de faïence ferma ses fours au crépuscule du XVIIIe siècle.",
+      "doc_en": "The faience manufactory shut down its kilns at the twilight of the 18th century.",
+      "notes": "End-of-century turn of phrase. The 1790s decade is contained in the anchor, but naming it is already a narrowing that the document does not allow.",
+      "anchor_expression_fr": "au crépuscule du XVIIIe siècle",
+      "anchor_tier": "century_end",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours dans la seconde moitié du XVIIIe siècle.",
+            "text_en": "The faience manufactory shut down its kilns in the second half of the 18th century.",
+            "valid": null
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours au XVIIIe siècle.",
+            "text_en": "The faience manufactory shut down its kilns in the 18th century.",
+            "valid": null
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours au siècle des Lumières.",
+            "text_en": "The faience manufactory shut down its kilns in the Age of Enlightenment.",
+            "valid": null,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours à l'époque moderne.",
+            "text_en": "The faience manufactory shut down its kilns in the early modern period.",
+            "valid": false,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours à la toute fin du XVIIIe siècle.",
+            "text_en": "The faience manufactory shut down its kilns at the very end of the 18th century.",
+            "valid": true,
+            "expression_fr": "à la toute fin du XVIIIeme siecle",
+            "expression_en": "at the very end of the 18th century",
+            "added_during_session": true
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours à la fin de l'époque moderne.",
+            "text_en": "The faience manufactory shut down its kilns at the end of the early modern period.",
+            "valid": null,
+            "expression_fr": "a la fin de l'epoque moderne",
+            "expression_en": "at the end of the early modern period",
+            "added_during_session": true
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours dans les années 1790.",
+            "text_en": "The faience manufactory shut down its kilns in the 1790s.",
+            "valid": false
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours en 1793.",
+            "text_en": "The faience manufactory shut down its kilns in 1793.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours dans les dernières années du dix-huitième siècle.",
+            "text_en": "The faience manufactory shut down its kilns in the final years of the eighteenth century.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours à l'aube du XVIIIe siècle.",
+            "text_en": "The faience manufactory shut down its kilns at the dawn of the 18th century.",
+            "valid": false
+          },
+          {
+            "text_fr": "La manufacture de faïence ferma ses fours au crépuscule du XVe siècle.",
+            "text_en": "The faience manufactory shut down its kilns at the twilight of the 15th century.",
+            "valid": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "second-third-19th",
+      "period": "Contemporary period (19th century)",
+      "doc_fr": "Le chemin de halage fut aménagé durant le second tiers du XIXe siècle.",
+      "doc_en": "The towpath was laid out during the second third of the 19th century.",
+      "notes": "Third-of-a-century anchor that coincides with neither half: the first half of the century does not include the end of the anchor, which makes it a wrong date rather than a generalization.",
+      "anchor_expression_fr": "durant le second tiers du XIXe siècle",
+      "anchor_tier": "third_century",
+      "variants": {
+        "generalization": [
+          {
+            "text_fr": "Le chemin de halage fut aménagé au XIXe siècle.",
+            "text_en": "The towpath was laid out in the 19th century.",
+            "valid": null
+          },
+          {
+            "text_fr": "Le chemin de halage fut aménagé à l'ère industrielle.",
+            "text_en": "The towpath was laid out in the industrial era.",
+            "valid": false,
+            "family": "periodization"
+          },
+          {
+            "text_fr": "Le chemin de halage fut aménagé à l'époque contemporaine.",
+            "text_en": "The towpath was laid out in the contemporary period.",
+            "valid": null,
+            "family": "era_container"
+          },
+          {
+            "text_fr": "Le chemin de halage fut aménagé au deuxième millénaire.",
+            "text_en": "The towpath was laid out in the second millennium.",
+            "valid": false,
+            "family": "era_container"
+          }
+        ],
+        "precision": [
+          {
+            "text_fr": "Le chemin de halage fut aménagé dans les années 1840.",
+            "text_en": "The towpath was laid out in the 1840s.",
+            "valid": false
+          },
+          {
+            "text_fr": "Le chemin de halage fut aménagé en 1847.",
+            "text_en": "The towpath was laid out in 1847.",
+            "valid": false
+          }
+        ],
+        "reformulation": [
+          {
+            "text_fr": "Le chemin de halage fut aménagé entre 1834 et 1866.",
+            "text_en": "The towpath was laid out between 1834 and 1866.",
+            "valid": true
+          },
+          {
+            "text_fr": "Le chemin de halage fut aménagé durant le deuxième tiers du dix-neuvième siècle.",
+            "text_en": "The towpath was laid out during the second third of the nineteenth century.",
+            "valid": true
+          }
+        ],
+        "wrong_date": [
+          {
+            "text_fr": "Le chemin de halage fut aménagé dans la première moitié du XIXe siècle.",
+            "text_en": "The towpath was laid out in the first half of the 19th century.",
+            "valid": false,
+            "family": "partial_inclusion"
+          },
+          {
+            "text_fr": "Le chemin de halage fut aménagé durant le second tiers du XVIe siècle.",
+            "text_en": "The towpath was laid out during the second third of the 16th century.",
+            "valid": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+models_dir: outputs/models
+
+common:
+  max_length: 512
+  learning_rate: 2.0e-5
+  epochs: 10
+  warmup_ratio: 0.06
+  weight_decay: 0.01
+  seed: 42
+
+architectures:
+  mdeberta:
+    model_name: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+    per_device_batch_size: 4
+    grad_accum: 4
+  roberta:
+    model_name: lytang/MiniCheck-RoBERTa-Large
+    per_device_batch_size: 8
+    grad_accum: 2
+
+runs:
+  mdeberta_main: {arch: mdeberta, dataset: outputs/datasets/en_main}
+  roberta_main: {arch: roberta, dataset: outputs/datasets/en_main}
+  mdeberta_rule_only: {arch: mdeberta, dataset: outputs/datasets/en_rule_only}
+  roberta_rule_only: {arch: roberta, dataset: outputs/datasets/en_rule_only}
+  mdeberta_generator_only: {arch: mdeberta, dataset: outputs/datasets/en_generator_only}
+  roberta_generator_only: {arch: roberta, dataset: outputs/datasets/en_generator_only}
+  mdeberta_mnli: {arch: mdeberta, dataset: outputs/datasets/en_mnli}
+  roberta_mnli: {arch: roberta, dataset: outputs/datasets/en_mnli}
+  mdeberta_fr: {arch: mdeberta, dataset: outputs/datasets/fr}
+  mdeberta_fr_from_en: {arch: mdeberta, dataset: outputs/datasets/fr, init_from: mdeberta_main}

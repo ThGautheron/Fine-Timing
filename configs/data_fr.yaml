@@ -1,0 +1,36 @@
+language: fr
+
+anchors:
+  - {name: fr, path: data/anchors/fr.csv.gz, annotated_only: true}
+
+split:
+  test_ratio: 0.20
+  dev_ratio: 0.15
+  seed: 13
+  n_trials: 20000
+
+preprocessing:
+  doc_window_tokens: 400
+  strip_bibliography: false
+
+assemble:
+  neg_pos_ratio: 1.0
+  include_human_anchors: true
+  include_human_positives: true
+  seed: 42
+
+llm:
+  base_url: http://127.0.0.1:8000/v1
+  model: mistralai/Mistral-Small-24B-Instruct-2501
+  api_key: EMPTY
+  temperature: 0.7
+  seed: 13
+  timeout_s: 180
+  max_retries: 4
+  n_per_series: 4
+
+paths:
+  splits_dir: outputs/splits/fr
+  generation_dir: outputs/rewrites/fr
+  workdir: outputs/work/fr
+  datasets_dir: outputs/datasets

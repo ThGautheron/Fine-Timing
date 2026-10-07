@@ -1,0 +1,105 @@
+{
+ "anchors": {
+  "queries": {
+   "dhq": 100,
+   "dm": 33,
+   "chdj": 100
+  },
+  "expressions": 4221,
+  "typed": 2592,
+  "typed_share": 61.4,
+  "undecided": 1629,
+  "undecided_disjoint": 1133,
+  "en_train_dev_reformulations_and_valid_generalizations": 1745,
+  "fr_train_dev_reformulations_and_valid_generalizations": 220
+ },
+ "table4_rag_summaries": {
+  "n": 2592,
+  "generalization": 35.5,
+  "precision": 13.2,
+  "reformulation": 50.4,
+  "wrong_date": 0.9
+ },
+ "rewrites": {
+  "candidates": 34046,
+  "judged": 32722,
+  "agreement_requested_label_vs_criterion": 73.8,
+  "valid_under_criterion_among_requested_valid": 64.0
+ },
+ "table4_rewrites_en": {
+  "n": 21890,
+  "generalization": 39.6,
+  "precision": 29.6,
+  "reformulation": 22.6,
+  "wrong_date": 8.2
+ },
+ "origins_en": {
+  "synthetic": 19357,
+  "human": 1438,
+  "silver": 1095
+ },
+ "table4_rewrites_fr": {
+  "n": 1964,
+  "generalization": 42.4,
+  "precision": 32.6,
+  "reformulation": 19.1,
+  "wrong_date": 5.8
+ },
+ "origins_fr": {
+  "synthetic": 1773,
+  "human": 191
+ },
+ "table2": {
+  "dhq": {
+   "train": 6175,
+   "dev": 1177,
+   "valid": 3661,
+   "invalid": 3691
+  },
+  "dm": {
+   "train": 2656,
+   "dev": 903,
+   "valid": 1708,
+   "invalid": 1851
+  },
+  "chdj": {
+   "train": 9510,
+   "dev": 1469,
+   "valid": 5558,
+   "invalid": 5421
+  },
+  "en_total": {
+   "train": 18341,
+   "dev": 3549,
+   "valid": 10927,
+   "invalid": 10963
+  },
+  "fr": {
+   "train": 1650,
+   "dev": 314,
+   "valid": 980,
+   "invalid": 984
+  }
+ },
+ "silver": {
+  "n": 1095,
+  "train": 963,
+  "dev": 132,
+  "types": {
+   "wrong_date": 18.5,
+   "generalization": 79.2,
+   "reformulation": 2.3
+  }
+ },
+ "table4_expert": {
+  "n": 351,
+  "generalization": 43.6,
+  "precision": 16.8,
+  "reformulation": 20.2,
+  "wrong_date": 19.4
+ },
+ "expert_decided_pairs": {
+  "n": 352,
+  "valid": 169
+ }
+}

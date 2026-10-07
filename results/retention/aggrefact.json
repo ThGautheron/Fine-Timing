@@ -1,0 +1,123 @@
+{
+ "dataset": "NinaCalvi/llm_aggrefact_pre_aug9 (third-party copy of the LLM-AggreFact test set)",
+ "subsets": [
+  "Reveal",
+  "FactCheck-GPT"
+ ],
+ "metrics": {
+  "mdeb_zs": {
+   "Reveal": {
+    "bacc": 0.8679293893129771,
+    "supported_accepted": 0.8725,
+    "unsupported_rejected": 0.8633587786259542,
+    "n": 1710,
+    "pos": 400
+   },
+   "FactCheck-GPT": {
+    "bacc": 0.7011219381369569,
+    "supported_accepted": 0.4946808510638298,
+    "unsupported_rejected": 0.907563025210084,
+    "n": 1566,
+    "pos": 376
+   },
+   "macro": {
+    "bacc": 0.784525663724967
+   }
+  },
+  "mdeb_ft": {
+   "Reveal": {
+    "bacc": 0.7678912213740459,
+    "supported_accepted": 0.9625,
+    "unsupported_rejected": 0.5732824427480916,
+    "n": 1710,
+    "pos": 400
+   },
+   "FactCheck-GPT": {
+    "bacc": 0.6328178079742536,
+    "supported_accepted": 0.8404255319148937,
+    "unsupported_rejected": 0.42521008403361343,
+    "n": 1566,
+    "pos": 376
+   },
+   "macro": {
+    "bacc": 0.7003545146741497
+   }
+  },
+  "rob_zs": {
+   "Reveal": {
+    "bacc": 0.8891507633587786,
+    "supported_accepted": 0.9325,
+    "unsupported_rejected": 0.8458015267175573,
+    "n": 1710,
+    "pos": 400
+   },
+   "FactCheck-GPT": {
+    "bacc": 0.7407339531557304,
+    "supported_accepted": 0.5797872340425532,
+    "unsupported_rejected": 0.9016806722689076,
+    "n": 1566,
+    "pos": 376
+   },
+   "macro": {
+    "bacc": 0.8149423582572546
+   }
+  },
+  "rob_ft": {
+   "Reveal": {
+    "bacc": 0.8009637404580152,
+    "supported_accepted": 0.9775,
+    "unsupported_rejected": 0.6244274809160305,
+    "n": 1710,
+    "pos": 400
+   },
+   "FactCheck-GPT": {
+    "bacc": 0.6789580725907384,
+    "supported_accepted": 0.8696808510638298,
+    "unsupported_rejected": 0.48823529411764705,
+    "n": 1566,
+    "pos": 376
+   },
+   "macro": {
+    "bacc": 0.7399609065243768
+   }
+  },
+  "mdeb_ft_mnli": {
+   "Reveal": {
+    "bacc": 0.8311736641221374,
+    "supported_accepted": 0.9425,
+    "unsupported_rejected": 0.7198473282442748,
+    "n": 1710,
+    "pos": 400
+   },
+   "FactCheck-GPT": {
+    "bacc": 0.7255632040050063,
+    "supported_accepted": 0.7393617021276596,
+    "unsupported_rejected": 0.711764705882353,
+    "n": 1566,
+    "pos": 376
+   },
+   "macro": {
+    "bacc": 0.7783684340635719
+   }
+  },
+  "rob_ft_mnli": {
+   "Reveal": {
+    "bacc": 0.8466221374045801,
+    "supported_accepted": 0.965,
+    "unsupported_rejected": 0.7282442748091603,
+    "n": 1710,
+    "pos": 400
+   },
+   "FactCheck-GPT": {
+    "bacc": 0.7260615948507063,
+    "supported_accepted": 0.7101063829787234,
+    "unsupported_rejected": 0.7420168067226891,
+    "n": 1566,
+    "pos": 376
+   },
+   "macro": {
+    "bacc": 0.7863418661276432
+   }
+  }
+ }
+}
