@@ -1,4 +1,4 @@
-# Fine-Timing: adapting faithfulness metrics to historians' reading of time
+# Fine-Timing: Adapting Faithfulness Metrics to Historians' Reading of Time
 
 Code and data to reproduce the experiments of the paper: fine-tuning two NLI-based faithfulness metrics
 (`mDeBERTa-v3-base` and `MiniCheck-RoBERTa-Large`) on rewrites of temporal expressions labelled with a historian-defined
